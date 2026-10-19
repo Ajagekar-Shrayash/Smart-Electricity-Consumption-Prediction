@@ -15,11 +15,19 @@ Machine Learning concepts, including data processing, model training, prediction
 
 ## PROJECT DELIVERABLES
 
-1. **C++ Application:** A working program for electricity consumption prediction.
-2. **Dataset:** A sample dataset containing historical electricity consumption readings.
-3. **Data Processing Module:** Functionality to load and process the dataset.
-4. **Machine Learning Model:** A Linear Regression algorithm implemented in C++.
-5. **Prediction Module:** Functionality to estimate electricity consumption for new inputs.
-6. **Evaluation Module:** Calculation of prediction errors using appropriate evaluation metrics such as MAE.
-7. **Testing and Results:** Test cases and results demonstrating the model's performance.
-8. **Project Documentation:** A report explaining the problem, methodology, algorithm, implementation, results and limitations.
+1. **C++ Application:**
+2. A working program for electricity consumption prediction.
+3. **Dataset:**
+4. A sample dataset containing historical electricity consumption readings.
+5. **Data Processing Module:**
+6. Functionality to load and process the dataset.
+7. **Machine Learning Model:**
+8. A Linear Regression algorithm implemented in C++.
+9. **Prediction Module:**
+10. Functionality to estimate electricity consumption for new inputs.
+11. **Evaluation Module:**
+12. Calculation of prediction errors using appropriate evaluation metrics such as MAE.
+13. **Testing and Results:**
+14. Test cases and results demonstrating the model's performance.
+15. **Project Documentation:**
+16. A report explaining the problem, methodology, algorithm, implementation, results and limitations.
