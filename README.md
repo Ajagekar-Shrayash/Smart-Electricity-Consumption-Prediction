@@ -4,7 +4,7 @@
 
 ## PROJECT DESCRIPTION
 
-- This project aims to develop a C++ based Machine Learning that analyzes historical electricity consumption data
+This project aims to develop a C++ based Machine Learning that analyzes historical electricity consumption data
 and predicts future consumption using Linear Regression.
 
 The system will process historical readings, learn the relationship between relevant input variables and electricity
