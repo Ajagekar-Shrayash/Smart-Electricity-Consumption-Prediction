@@ -1,4 +1,4 @@
-# PROJECT TITLE
+![Project Title](https://img.shields.io/badge/PROJECT_TITLE-Smart_Electricity_Consumption_Prediction_Using_ML_in_C%2B%2B-blue?style=for-the-badge)
 # Smart Electricity Consumption Prediction Using Machine Learning in C++.
 
 ## PROJECT DESCRIPTION
