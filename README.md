@@ -1,4 +1,4 @@
-# PROJECT TITLE
+## PROJECT TITLE
 
 # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&width=700&lines=Smart+Electricity+Consumption+Prediction)](https://git.io/typing-svg)
 
