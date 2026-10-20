@@ -1,6 +1,6 @@
 # PROJECT TITLE
 
-## Smart Electricity Consumption Prediction Using Machine Learning in C++.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=SMART+ELECTRICITY+CONSUMPTION+PREDICTION+%E2%9A%A1)](https://git.io/typing-svg)
 
 ## PROJECT DESCRIPTION
 
