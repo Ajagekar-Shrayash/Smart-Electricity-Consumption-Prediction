@@ -1,0 +1,14 @@
+# Compiled files
+*.exe
+*.o
+*.obj
+
+# Debug files
+*.pdb
+*.ilk
+
+# IDE files
+.vscode/
+
+# Dateset
+dataset/
