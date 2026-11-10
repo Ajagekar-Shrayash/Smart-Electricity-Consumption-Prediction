@@ -185,3 +185,30 @@ The model also displays actual and predicted values for sample testing records.
 ``.\bin\main.exe``
 
 Make sure the dataset is placed inside the dataset folder before execution.
+
+### ⚠️ Current Implementation Limitations
+
+The current model estimates electricity consumption using electrical measurements from the same record.
+
+It does not yet perform future time-series forecasting.
+
+### 🚀 Future Improvements
+
+- `Implement future electricity consumption forecasting.`
+
+- `Introduce historical consumption-based input features.`
+
+- `Explore time-based feature engineering.`
+
+- `Improve model performance and evaluation.`
+
+- `Develop a more advanced prediction system.`
+
+### 👨‍💻 Project Team
+
+Project Group ID: 2
+
+~ AJAGEKAR SHRAYASH MACHINDRA
+~ MANSURI HAREEMBANU MOHAMMED HUSSAIN
+
+Developed as a B.Tech Computer Science and Engineering project.
