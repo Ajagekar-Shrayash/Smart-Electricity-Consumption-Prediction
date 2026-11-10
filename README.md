@@ -46,12 +46,12 @@ Machine Learning concepts, including data processing, model training, prediction
 **Smart-Electricity-Consumption-Prediction/**
 │
 ├── **dataset/**
-│   └── **household_power_consumption.txt**
+│   └── *household_power_consumption.txt*
 │
 ├── **include/**
-│   ├── **data_loader.h**
-│   ├── **preprocessing.h**
-│   └── **linear_regression.h**
+│   ├── *data_loader.h*
+│   ├── *preprocessing.h*
+│   └── *linear_regression.h*
 │
 ├── **src/**
 │   ├── *main.cpp*
