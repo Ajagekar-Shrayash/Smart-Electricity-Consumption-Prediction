@@ -24,3 +24,19 @@ Machine Learning concepts, including data processing, model training, prediction
 11. **Evaluation Module:** Calculation of prediction errors using appropriate evaluation metrics such as MAE.
 13. **Testing and Results:** Test cases and results demonstrating the model's performance.
 15. **Project Documentation:** A report explaining the problem, methodology, algorithm, implementation, results and limitations.
+
+16. **Generate predictions and evaluate model performance.
+
+##🛠️ Technologies Used
+
+Programming Language: C++
+
+Compiler: GCC (g++)
+
+Machine Learning: Linear Regression
+
+Optimization: Gradient Descent
+
+Data Structures: C++ Vectors
+
+Evaluation Metric: Mean Absolute Error (MAE)
