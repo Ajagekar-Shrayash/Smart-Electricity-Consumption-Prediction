@@ -161,3 +161,27 @@ The current implementation successfully trains and tests the Linear Regression m
 Observed Mean Absolute Error:
 
 **`MAE = 0.0712247 kW`**
+
+The model also displays actual and predicted values for sample testing records.
+
+### ▶️ How to Run the Project
+
+**Requirements:**
+
+`Windows`
+
+`GCC C++ Compiler`
+
+`VS Code (recommended)`
+
+**Compile:**
+
+`Run the following command from the project root directory:
+
+``g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression.cpp -o bin/main.exe``
+
+**Execute:**
+
+``.\bin\main.exe``
+
+Make sure the dataset is placed inside the dataset folder before execution.
