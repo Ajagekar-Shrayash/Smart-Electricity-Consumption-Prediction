@@ -99,9 +99,9 @@ The program processes up to 10,000 valid records and skips records containing mi
 
 ⚙️ Machine Learning Workflow
 
-Dataset Loading
-      |
-      v
+`Dataset Loading`
+      `|`
+      `v`
 Data Preprocessing
       |
       v
