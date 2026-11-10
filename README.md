@@ -153,3 +153,11 @@ The program processes up to 10,000 valid records and skips records containing mi
 7. **Model Evaluation**
 
 - Uses Mean Absolute Error (MAE) to measure the difference between actual and predicted electricity consumption.
+
+### 📈 Model Results
+
+The current implementation successfully trains and tests the Linear Regression model.
+
+Observed Mean Absolute Error:
+
+**`MAE = 0.0712247 kW`**
