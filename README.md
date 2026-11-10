@@ -73,17 +73,18 @@ Machine Learning concepts, including data processing, model training, prediction
 
 The dataset contains household electrical measurements recorded at one-minute intervals.
 
-## Features                                                              ## Description
+### Features Used
 
-Global Intensity                                                         Current intensity
+| Feature | Description |
+|:---|:---|
+| `Global_reactive_power` | Reactive power measurement |
+| `Voltage` | Household electrical voltage |
+| `Global_intensity` | Overall current intensity |
+| `Sub_metering_1` | Energy used by kitchen appliances |
+| `Sub_metering_2` | Energy used by laundry appliances |
+| `Sub_metering_3` | Energy used by other appliances |
 
-Sub Metering 1                                                           Kitchen energy sub-metering
-
-Sub Metering 2                                                           Laundry energy sub-metering
-
-Sub Metering 3                                                           Other appliance energy sub-metering
-
-**Target Variable:** Global Active Power (kW)
+**Target Variable:** `Global_active_power` (kW)
 
 The program processes up to 10,000 valid records and skips records containing missing numerical values.
 
