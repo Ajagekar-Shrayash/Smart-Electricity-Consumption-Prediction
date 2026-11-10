@@ -27,16 +27,16 @@ Machine Learning concepts, including data processing, model training, prediction
 
 16. **Generate predictions and evaluate model performance.
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-Programming Language: C++
+**Programming Language:** C++
 
-Compiler: GCC (g++)
+**Compiler:** GCC (g++)
 
-Machine Learning: Linear Regression
+**Machine Learning:** Linear Regression
 
-Optimization: Gradient Descent
+**Optimization:** Gradient Descent
 
-Data Structures: C++ Vectors
+**Data Structures:** C++ Vectors
 
-Evaluation Metric: Mean Absolute Error (MAE)
+**Evaluation Metric:** Mean Absolute Error (MAE)
