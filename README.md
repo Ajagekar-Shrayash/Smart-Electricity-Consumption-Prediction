@@ -40,3 +40,27 @@ Machine Learning concepts, including data processing, model training, prediction
 **Data Structures:** C++ Vectors
 
 **Evaluation Metric:** Mean Absolute Error (MAE)
+
+## 📂 Project Structure
+
+Smart-Electricity-Consumption-Prediction/
+│
+├── dataset/
+│   └── household_power_consumption.txt
+│
+├── include/
+│   ├── data_loader.h
+│   ├── preprocessing.h
+│   └── linear_regression.h
+│
+├── src/
+│   ├── main.cpp
+│   ├── data_loader.cpp
+│   ├── preprocessing.cpp
+│   └── linear_regression.cpp
+│
+├── bin/
+│   └── main.exe
+│
+├── .gitignore
+└── README.md
