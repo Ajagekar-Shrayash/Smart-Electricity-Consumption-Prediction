@@ -97,36 +97,26 @@ The program processes up to 10,000 valid records and skips records containing mi
 
 - Place household_power_consumption.txt inside that folder.
 
-⚙️ Machine Learning Workflow
+## ⚙️ Machine Learning Workflow
 
-`Dataset Loading`
-      `|`
-      `v`
-Data Preprocessing
-      |
-      v
-Feature Selection
-      |
-      v
-Train-Test Split (80:20)
-      |
-      v
-Feature Standardization
-      |
-      v
-Linear Regression
-      |
-      v
-Gradient Descent
-      |
-      v
-Model Training
-      |
-      v
-Model Testing
-      |
-      v
-Prediction
-      |
-      v
-MAE Evaluation
+- **Dataset Loading**
+  - ↓
+- **Data Preprocessing**
+  - ↓
+- **Feature Selection**
+  - ↓
+- **Train-Test Split (80:20)**
+  - ↓
+- **Feature Standardization**
+  - ↓
+- **Linear Regression**
+  - ↓
+- **Gradient Descent**
+  - ↓
+- **Model Training**
+  - ↓
+- **Model Testing**
+  - ↓
+- **Prediction**
+  - ↓
+- **MAE Evaluation**
