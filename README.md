@@ -43,24 +43,24 @@ Machine Learning concepts, including data processing, model training, prediction
 
 ## 📂 Project Structure
 
-Smart-Electricity-Consumption-Prediction/
+**Smart-Electricity-Consumption-Prediction/**
 │
-├── dataset/
-│   └── household_power_consumption.txt
+├── **dataset/**
+│   └── **household_power_consumption.txt**
 │
-├── include/
-│   ├── data_loader.h
-│   ├── preprocessing.h
-│   └── linear_regression.h
+├── **include/**
+│   ├── **data_loader.h**
+│   ├── **preprocessing.h**
+│   └── **linear_regression.h**
 │
-├── src/
-│   ├── main.cpp
-│   ├── data_loader.cpp
-│   ├── preprocessing.cpp
-│   └── linear_regression.cpp
+├── **src/**
+│   ├── *main.cpp*
+│   ├── *data_loader.cpp*
+│   ├── *preprocessing.cpp*
+│   └── *linear_regression.cpp*
 │
-├── bin/
-│   └── main.exe
+├── **bin/**
+│   └── *main.exe*
 │
-├── .gitignore
-└── README.md
+├── **.gitignore**
+└── **README.md**
