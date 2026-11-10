@@ -100,23 +100,23 @@ The program processes up to 10,000 valid records and skips records containing mi
 ## ⚙️ Machine Learning Workflow
 
 - **Dataset Loading**
-  - ↓
+  - `↓`
 - **Data Preprocessing**
-  - ↓
+  - `↓`
 - **Feature Selection**
-  - ↓
+  - `↓`
 - **Train-Test Split (80:20)**
-  - ↓
+  - `↓`
 - **Feature Standardization**
-  - ↓
+  - `↓`
 - **Linear Regression**
-  - ↓
+  - `↓`
 - **Gradient Descent**
-  - ↓
+  - `↓`
 - **Model Training**
-  - ↓
+  - `↓`
 - **Model Testing**
-  - ↓
+  - `↓`
 - **Prediction**
-  - ↓
+  - `↓`
 - **MAE Evaluation**
