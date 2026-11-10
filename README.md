@@ -97,7 +97,7 @@ The program processes up to 10,000 valid records and skips records containing mi
 
 - Place household_power_consumption.txt inside that folder.
 
-## ⚙️ Machine Learning Workflow
+### ⚙️ Machine Learning Workflow
 
 - **`Dataset Loading`**
   - `↓`
@@ -121,7 +121,7 @@ The program processes up to 10,000 valid records and skips records containing mi
   - `↓`
 - **`MAE Evaluation`**
 
-## 🧠 Model Implementation
+### 🧠 Model Implementation
 
 1. **Data Loading**
 
