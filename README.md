@@ -64,3 +64,35 @@ Machine Learning concepts, including data processing, model training, prediction
 │
 ├── **.gitignore**
 └── **README.md**
+
+## 📊 Dataset Information
+
+**Dataset:** Individual Household Electric Power Consumption
+
+**Source:** UCI Machine Learning Repository
+
+The dataset contains household electrical measurements recorded at one-minute intervals.
+
+## Features                            ## Description
+
+Global Intensity                       Current intensity
+
+Sub Metering 1                         Kitchen energy sub-metering
+
+Sub Metering 2                         Laundry energy sub-metering
+
+Sub Metering 3                         Other appliance energy sub-metering
+
+**Target Variable:** Global Active Power (kW)
+
+The program processes up to 10,000 valid records and skips records containing missing numerical values.
+
+## Dataset Setup
+
+-Download the Individual Household Electric Power Consumption dataset from the UCI Machine Learning Repository.
+
+Extract the downloaded archive.
+
+Create a folder named dataset in the project root.
+
+Place household_power_consumption.txt inside that folder.
