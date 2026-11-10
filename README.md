@@ -73,15 +73,15 @@ Machine Learning concepts, including data processing, model training, prediction
 
 The dataset contains household electrical measurements recorded at one-minute intervals.
 
-## Features                            ## Description
+## Features                                                              ## Description
 
-Global Intensity                       Current intensity
+Global Intensity                                                         Current intensity
 
-Sub Metering 1                         Kitchen energy sub-metering
+Sub Metering 1                                                           Kitchen energy sub-metering
 
-Sub Metering 2                         Laundry energy sub-metering
+Sub Metering 2                                                           Laundry energy sub-metering
 
-Sub Metering 3                         Other appliance energy sub-metering
+Sub Metering 3                                                           Other appliance energy sub-metering
 
 **Target Variable:** Global Active Power (kW)
 
