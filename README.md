@@ -74,14 +74,14 @@ The dataset contains household electrical measurements recorded at one-minute in
 
 ### Features Used
 
-| Feature | Description |
+| **Feature** | **Description** |
 |:---|:---|
-| `Global_reactive_power` | Reactive power measurement |
-| `Voltage` | Household electrical voltage |
-| `Global_intensity` | Overall current intensity |
-| `Sub_metering_1` | Energy used by kitchen appliances |
-| `Sub_metering_2` | Energy used by laundry appliances |
-| `Sub_metering_3` | Energy used by other appliances |
+| `Global_reactive_power` | `Reactive power measurement` |
+| `Voltage` | `Household electrical voltage` |
+| `Global_intensity` | `Overall current intensity` |
+| `Sub_metering_1` | `Energy used by kitchen appliances` |
+| `Sub_metering_2` | `Energy used by laundry appliances` |
+| `Sub_metering_3` | `Energy used by other appliances` |
 
 **Target Variable:** `Global_active_power` (kW)
 
