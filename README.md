@@ -206,9 +206,9 @@ It does not yet perform future time-series forecasting.
 
 ### 👨‍💻 Project Team
 
-Project Group ID: 2
+**Project Group ID:** 2
 
-~ AJAGEKAR SHRAYASH MACHINDRA
-~ MANSURI HAREEMBANU MOHAMMED HUSSAIN
+`AJAGEKAR SHRAYASH MACHINDRA`
+`MANSURI HAREEMBANU MOHAMMED HUSSAIN`
 
-Developed as a B.Tech Computer Science and Engineering project.
+**Developed as a B.Tech Computer Science and Engineering project.**
