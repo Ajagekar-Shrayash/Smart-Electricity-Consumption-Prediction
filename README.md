@@ -176,7 +176,7 @@ The model also displays actual and predicted values for sample testing records.
 
 **Compile:**
 
-`Run the following command from the project root directory:
+*Run the following command from the project root directory:*
 
 ``g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression.cpp -o bin/main.exe``
 
