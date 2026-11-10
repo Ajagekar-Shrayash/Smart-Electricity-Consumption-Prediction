@@ -120,3 +120,36 @@ The program processes up to 10,000 valid records and skips records containing mi
 - **`Prediction`**
   - `↓`
 - **`MAE Evaluation`**
+
+## 🧠 Model Implementation
+
+1. **Data Loading**
+
+- Loads electricity consumption records from the semicolon-separated dataset.
+
+2. **Data Preprocessing**
+
+- Handles missing numerical values and prepares the input features.
+
+3. **Train-Test Split**
+
+- Divides the valid records into:
+
+- `80% Training Data`
+- `20% Testing Data`
+
+4. **Feature Standardization**
+
+- Standardizes features using the mean and standard deviation calculated from the training data. The same scaling parameters are applied to testing data.
+
+5. **Linear Regression**
+
+- Implements Linear Regression manually using C++.
+
+6. **Gradient Descent**
+
+- Optimizes model weights and bias by minimizing Mean Squared Error (MSE) during training.
+
+7. **Model Evaluation**
+
+- Uses Mean Absolute Error (MAE) to measure the difference between actual and predicted electricity consumption.
