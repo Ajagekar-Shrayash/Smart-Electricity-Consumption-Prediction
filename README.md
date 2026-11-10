@@ -2,7 +2,7 @@
 
 # [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&width=700&lines=Smart+Electricity+Consumption+Prediction)](https://git.io/typing-svg)
 
-## PROJECT DESCRIPTION
+### PROJECT DESCRIPTION
 
 This project aims to develop a C++ based Machine Learning that analyzes historical electricity consumption data
 and predicts future consumption using Linear Regression.
@@ -14,7 +14,7 @@ with actual readings.
 The project will implement the core prediction algorithm in C++ without relying on Python. It will demonstrate fundamental
 Machine Learning concepts, including data processing, model training, prediction and evaluation.
 
-## PROJECT DELIVERABLES
+### PROJECT DELIVERABLES
 
 1. **C++ Application:** A working program for electricity consumption prediction.
 3. **Dataset:** A sample dataset containing historical electricity consumption readings.
@@ -27,7 +27,7 @@ Machine Learning concepts, including data processing, model training, prediction
 
 16. **Generate predictions and evaluate model performance.
 
-## 🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 **Programming Language:** C++
 
@@ -41,7 +41,7 @@ Machine Learning concepts, including data processing, model training, prediction
 
 **Evaluation Metric:** Mean Absolute Error (MAE)
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 **Smart-Electricity-Consumption-Prediction/**
 │
@@ -65,11 +65,11 @@ Machine Learning concepts, including data processing, model training, prediction
 ├── **.gitignore**
 └── **README.md**
 
-## 📊 Dataset Information
+### 📊 Dataset Information
 
 **Dataset:** Individual Household Electric Power Consumption
 
-**Source:** UCI Machine Learning Repository
+**Source:** `UCI Machine Learning Repository`
 
 The dataset contains household electrical measurements recorded at one-minute intervals.
 
@@ -88,12 +88,12 @@ The dataset contains household electrical measurements recorded at one-minute in
 
 The program processes up to 10,000 valid records and skips records containing missing numerical values.
 
-## Dataset Setup
+### Dataset Setup
 
--Download the Individual Household Electric Power Consumption dataset from the UCI Machine Learning Repository.
+- Download the Individual Household Electric Power Consumption dataset from the UCI Machine Learning Repository.
 
-Extract the downloaded archive.
+- Extract the downloaded archive.
 
-Create a folder named dataset in the project root.
+- Create a folder named dataset in the project root.
 
-Place household_power_consumption.txt inside that folder.
+- Place household_power_consumption.txt inside that folder.
