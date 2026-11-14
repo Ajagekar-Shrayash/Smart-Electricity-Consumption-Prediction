@@ -182,7 +182,7 @@ The model also displays actual and predicted values for sample testing records.
 
 **Execute:**
 
-``.\bin\main.exe``
+``bin\main.exe``
 
 Make sure the dataset is placed inside the dataset folder before execution.
 
