@@ -162,5 +162,3 @@ NOTES
 - The model estimates Global Active Power from supplied electrical measurements.
 - The current implementation does not perform future time-based forecasting.
 - Model evaluation using MAE is currently performed inside "main.cpp".
-
-================================================
