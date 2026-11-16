@@ -9,7 +9,7 @@ Team Members:
 
 ## FILES
 
-1. data_loader.h / data_loader.cpp
+data_loader.h / data_loader.cpp
 
 Dataset structure and electricity dataset loading.
 
@@ -21,7 +21,7 @@ Function:
 
 - "loadDataset()" – Loads the dataset, checks missing values and stores valid records.
 
-2. preprocessing.h / preprocessing.cpp
+preprocessing.h / preprocessing.cpp
 
 Data preprocessing, feature selection, train-test splitting and standardization.
 
@@ -38,7 +38,7 @@ Functions:
 - "fitStandardizer()" – Calculates mean and standard deviation from training features.
 - "transformFeatures()" – Standardizes input features.
 
-3. linear_regression.h / linear_regression.cpp
+linear_regression.h / linear_regression.cpp
 
 Linear Regression model implementation using Gradient Descent.
 
