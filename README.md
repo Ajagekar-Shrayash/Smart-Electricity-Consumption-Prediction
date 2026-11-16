@@ -88,42 +88,6 @@ Date and Time are not used as model input features.
 
 ================================================
 
-MACHINE LEARNING WORKFLOW
-
-Dataset Loading
-|
-v
-Data Preprocessing
-|
-v
-Feature Selection
-|
-v
-Train-Test Split (80:20)
-|
-v
-Feature Standardization
-|
-v
-Linear Regression
-|
-v
-Gradient Descent
-|
-v
-Model Training
-|
-v
-Model Testing
-|
-v
-Prediction
-|
-v
-MAE Evaluation
-
-================================================
-
 REQUIREMENTS
 
 - Windows
