@@ -1,215 +1,177 @@
-## PROJECT TITLE
+SMART ELECTRICITY CONSUMPTION PREDICTION
 
-# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&width=700&lines=Smart+Electricity+Consumption+Prediction)](https://git.io/typing-svg)
+C++ MACHINE LEARNING PROJECT
 
-### PROJECT DESCRIPTION
+Team Members:
 
-This project aims to develop a C++ based Machine Learning that analyzes historical electricity consumption data
-and predicts future consumption using Linear Regression.
+- AJAGEKAR SHRAYASH MACHINDRA
+- MANSURI HAREEMBANU MOHAMMED HUSSAIN
 
-The system will process historical readings, learn the relationship between relevant input variables and electricity
-usage, and generate predictions for new inputs. It will also evaluate prediction accuracy by comparing predicted values
-with actual readings.
+================================================
 
-The project will implement the core prediction algorithm in C++ without relying on Python. It will demonstrate fundamental
-Machine Learning concepts, including data processing, model training, prediction and evaluation.
+FILES
 
-### PROJECT DELIVERABLES
+---
 
-1. **C++ Application:** A working program for electricity consumption prediction.
-3. **Dataset:** A sample dataset containing historical electricity consumption readings.
-5. **Data Processing Module:** Functionality to load and process the dataset.
-7. **Machine Learning Model:** A Linear Regression algorithm implemented in C++.
-9. **Prediction Module:** Functionality to estimate electricity consumption for new inputs.
-11. **Evaluation Module:** Calculation of prediction errors using appropriate evaluation metrics such as MAE.
-13. **Testing and Results:** Test cases and results demonstrating the model's performance.
-15. **Project Documentation:** A report explaining the problem, methodology, algorithm, implementation, results and limitations.
-16. **Generate predictions and evaluate model performance.**
+data_loader.h / data_loader.cpp
 
-### 🛠️ Technologies Used
+Dataset structure and electricity dataset loading.
 
-**Programming Language:** C++
+Structure:
 
-**Compiler:** GCC (g++)
+- "Dataset"
 
-**Machine Learning:** Linear Regression
+Function:
 
-**Optimization:** Gradient Descent
+- "loadDataset()" – Loads the dataset, checks missing values and stores valid records.
 
-**Data Structures:** C++ Vectors
+preprocessing.h / preprocessing.cpp
 
-**Evaluation Metric:** Mean Absolute Error (MAE)
+Data preprocessing, feature selection, train-test splitting and standardization.
 
-### 📂 Project Structure
+Structures:
 
-**Smart-Electricity-Consumption-Prediction/**
-│
-├── **dataset/**
-│   └── *household_power_consumption.txt*
-│
-├── **include/**
-│   ├── *data_loader.h*
-│   ├── *preprocessing.h*
-│   └── *linear_regression.h*
-│
-├── **src/**
-│   ├── *main.cpp*
-│   ├── *data_loader.cpp*
-│   ├── *preprocessing.cpp*
-│   └── *linear_regression.cpp*
-│
-├── **bin/**
-│   └── *main.exe*
-│
-├── **.gitignore**
-└── **README.md**
+- "PreparedData" – Stores input features (X) and target values (y).
+- "SplitData" – Stores training and testing datasets.
+- "Standardizer" – Stores mean and standard deviation.
 
-### 📊 Dataset Information
+Functions:
 
-**Dataset:** Individual Household Electric Power Consumption
+- "selectFeatures()" – Selects six input features and one target variable.
+- "trainTestSplit()" – Splits data into training and testing sets.
+- "fitStandardizer()" – Calculates mean and standard deviation from training features.
+- "transformFeatures()" – Standardizes input features.
 
-**Source:** `UCI Machine Learning Repository`
+linear_regression.h / linear_regression.cpp
 
-The dataset contains household electrical measurements recorded at one-minute intervals.
+Linear Regression model implementation using Gradient Descent.
 
-### Features Used
+Structure:
 
-| **Feature** | **Description** |
-|:---|:---|
-| `Global_reactive_power` | `Reactive power measurement` |
-| `Voltage` | `Household electrical voltage` |
-| `Global_intensity` | `Overall current intensity` |
-| `Sub_metering_1` | `Energy used by kitchen appliances` |
-| `Sub_metering_2` | `Energy used by laundry appliances` |
-| `Sub_metering_3` | `Energy used by other appliances` |
+- "LinearRegression" – Stores model weights and bias.
 
-**Target Variable:** `Global_active_power` (kW)
+Functions:
 
-The program processes up to 10,000 valid records and skips records containing missing numerical values.
+- "trainModel()" – Trains the model by updating weights and bias.
+- "predict()" – Estimates Global Active Power using trained model parameters.
 
-### Dataset Setup
+main.cpp
 
-- Download the Individual Household Electric Power Consumption dataset from the UCI Machine Learning Repository.
+Main function and complete execution workflow.
 
-- Extract the downloaded archive.
+- Dataset loading
+- Feature selection
+- Train-test splitting
+- Feature standardization
+- Model training
+- Model testing
+- Prediction
+- MAE calculation
 
-- Create a folder named dataset in the project root.
+================================================
 
-- Place household_power_consumption.txt inside that folder.
+DATASET FEATURES
 
-### ⚙️ Machine Learning Workflow
+---
 
-- **`Dataset Loading`**
-  - `↓`
-- **`Data Preprocessing`**
-  - `↓`
-- **``Feature Selection``**
-  - `↓`
-- **`Train-Test Split (80:20)`**
-  - `↓`
-- **`Feature Standardization`**
-  - `↓`
-- **`Linear Regression`**
-  - `↓`
-- **`Gradient Descent`**
-  - `↓`
-- **`Model Training`**
-  - `↓`
-- **`Model Testing`**
-  - `↓`
-- **`Prediction`**
-  - `↓`
-- **`MAE Evaluation`**
+INPUT FEATURES (X):
 
-### 🧠 Model Implementation
+1. Global Reactive Power
+2. Voltage
+3. Global Intensity
+4. Sub Metering 1
+5. Sub Metering 2
+6. Sub Metering 3
 
-1. **Data Loading**
+TARGET VARIABLE (Y):
 
-- Loads electricity consumption records from the semicolon-separated dataset.
+- Global Active Power (kW)
 
-2. **Data Preprocessing**
+Date and Time are not used as model input features.
 
-- Handles missing numerical values and prepares the input features.
+================================================
 
-3. **Train-Test Split**
+MACHINE LEARNING WORKFLOW
+---
+Dataset Loading
+|
+v
+Data Preprocessing
+|
+v
+Feature Selection
+|
+v
+Train-Test Split (80:20)
+|
+v
+Feature Standardization
+|
+v
+Linear Regression
+|
+v
+Gradient Descent
+|
+v
+Model Training
+|
+v
+Model Testing
+|
+v
+Prediction
+|
+v
+MAE Evaluation
 
-- Divides the valid records into:
+================================================
 
-- `80% Training Data`
-- `20% Testing Data`
+REQUIREMENTS
 
-4. **Feature Standardization**
+---
 
-- Standardizes features using the mean and standard deviation calculated from the training data. The same scaling parameters are applied to testing data.
+- Windows
+- GCC 
+- Visual Studio Code
 
-5. **Linear Regression**
+================================================
 
-- Implements Linear Regression manually using C++.
+COMPILE
 
-6. **Gradient Descent**
+---
 
-- Optimizes model weights and bias by minimizing Mean Squared Error (MSE) during training.
+Run from the project root directory.
 
-7. **Model Evaluation**
+Create the bin directory if it does not exist:
 
-- Uses Mean Absolute Error (MAE) to measure the difference between actual and predicted electricity consumption.
+mkdir bin
 
-### 📈 Model Results
+Compile:
 
-The current implementation successfully trains and tests the Linear Regression model.
+g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression.cpp -o bin/main.exe
 
-Observed Mean Absolute Error:
+================================================
 
-**`MAE = 0.0712247 kW`**
+RUN
 
-The model also displays actual and predicted values for sample testing records.
+---
 
-### ▶️ How to Run the Project
+bin\main.exe
 
-**Requirements:**
+================================================
 
-`Windows`
+NOTES
 
-`GCC C++ Compiler`
+---
 
-`VS Code (recommended)`
+- The dataset uses semicolon-separated values.
+- Records containing missing numerical values ("?") are skipped.
+- The current implementation processes up to 10,000 valid records.
+- Linear Regression learns weights and bias using Gradient Descent.
+- Feature standardization uses training data statistics.
+- The model estimates Global Active Power from supplied electrical measurements.
+- The current implementation does not perform future time-based forecasting.
+- Model evaluation using MAE is currently performed inside "main.cpp".
 
-**Compile:**
-
-*Run the following command from the project root directory:*
-
-``g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression.cpp -o bin/main.exe``
-
-**Execute:**
-
-``bin\main.exe``
-
-Make sure the dataset is placed inside the dataset folder before execution.
-
-### ⚠️ Current Implementation Limitations
-
-The current model estimates electricity consumption using electrical measurements from the same record.
-
-It does not yet perform future time-series forecasting.
-
-### 🚀 Future Improvements
-
-- `Implement future electricity consumption forecasting.`
-
-- `Introduce historical consumption-based input features.`
-
-- `Explore time-based feature engineering.`
-
-- `Improve model performance and evaluation.`
-
-- `Develop a more advanced prediction system.`
-
-### 👨‍💻 Project Team
-
-**Project Group ID:** 2
-
- `AJAGEKAR SHRAYASH MACHINDRA.`
-  
- `MANSURI HAREEMBANU MOHAMMED HUSSAIN.`
-
-**Developed as a B.Tech Computer Science and Engineering project.**
+================================================
