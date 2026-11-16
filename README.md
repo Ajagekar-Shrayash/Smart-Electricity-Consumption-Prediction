@@ -11,8 +11,6 @@ Team Members:
 
 FILES
 
----
-
 data_loader.h / data_loader.cpp
 
 Dataset structure and electricity dataset loading.
@@ -72,7 +70,6 @@ Main function and complete execution workflow.
 
 DATASET FEATURES
 
----
 
 INPUT FEATURES (X):
 
@@ -92,7 +89,7 @@ Date and Time are not used as model input features.
 ================================================
 
 MACHINE LEARNING WORKFLOW
----
+
 Dataset Loading
 |
 v
@@ -129,8 +126,6 @@ MAE Evaluation
 
 REQUIREMENTS
 
----
-
 - Windows
 - GCC 
 - Visual Studio Code
@@ -138,8 +133,6 @@ REQUIREMENTS
 ================================================
 
 COMPILE
-
----
 
 Run from the project root directory.
 
@@ -155,15 +148,11 @@ g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression
 
 RUN
 
----
-
 bin\main.exe
 
 ================================================
 
 NOTES
-
----
 
 - The dataset uses semicolon-separated values.
 - Records containing missing numerical values ("?") are skipped.
