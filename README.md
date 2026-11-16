@@ -1,4 +1,4 @@
-SMART ELECTRICITY CONSUMPTION PREDICTION
+*SMART ELECTRICITY CONSUMPTION PREDICTION*
 
 C++ MACHINE LEARNING PROJECT
 
@@ -6,8 +6,6 @@ Team Members:
 
 - AJAGEKAR SHRAYASH MACHINDRA
 - MANSURI HAREEMBANU MOHAMMED HUSSAIN
-
-=====================================
 
 ## FILES
 
@@ -66,8 +64,6 @@ Main function and complete execution workflow.
 - Prediction
 - MAE calculation
 
-=====================================
-
 ## DATASET FEATURES
 
 
@@ -86,7 +82,6 @@ TARGET VARIABLE (Y):
 
 Date and Time are not used as model input features.
 
-=====================================
 
 ## REQUIREMENTS
 
@@ -94,7 +89,6 @@ Date and Time are not used as model input features.
 - GCC 
 - Visual Studio Code
 
-=====================================
 
 ## COMPILE
 
@@ -108,13 +102,11 @@ Compile:
 
 g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression.cpp -o bin/main.exe
 
-====================================
 
 ## RUN
 
 bin\main.exe
 
-====================================
 
 ## NOTES
 
