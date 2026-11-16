@@ -68,7 +68,7 @@ Main function and complete execution workflow.
 
 =====================================
 
-DATASET FEATURES
+## DATASET FEATURES
 
 
 INPUT FEATURES (X):
@@ -88,7 +88,7 @@ Date and Time are not used as model input features.
 
 =====================================
 
-REQUIREMENTS
+## REQUIREMENTS
 
 - Windows
 - GCC 
@@ -96,7 +96,7 @@ REQUIREMENTS
 
 =====================================
 
-COMPILE
+## COMPILE
 
 Run from the project root directory.
 
@@ -110,13 +110,13 @@ g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression
 
 ====================================
 
-RUN
+## RUN
 
 bin\main.exe
 
 ====================================
 
-NOTES
+## NOTES
 
 - The dataset uses semicolon-separated values.
 - Records containing missing numerical values ("?") are skipped.
