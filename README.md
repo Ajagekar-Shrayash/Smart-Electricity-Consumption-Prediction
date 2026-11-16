@@ -92,14 +92,6 @@ Date and Time are not used as model input features.
 
 ## COMPILE
 
-Run from the project root directory.
-
-Create the bin directory if it does not exist:
-
-mkdir bin
-
-Compile:
-
 g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression.cpp -o bin/main.exe
 
 
