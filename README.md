@@ -10,7 +10,7 @@ Team Members:
 
 INTRO:
 ------------------------------------------------
-    This project uses Linear Regression with Gradient Descent in C++ to predict household electricity consumption (Global Active Power) based on six electrical features from historical data.
+This project uses Linear Regression with Gradient Descent in C++ to predict household electricity consumption (Global Active Power) based on six electrical features from historical data.
 
 PROJECT STRUCTURE:
 ------------------------------------------------
@@ -26,13 +26,13 @@ FILES:
 ------------------------------------------------
 
 - data_loader.h / data_loader.cpp:
-    Dataset structure and electricity dataset loading.    
+     Dataset structure and electricity dataset loading.    
   
-- preprocessing.h / preprocessing.cpp
-    Data preprocessing, feature selec:tion, train-test splitting and standardization.
+- preprocessing.h / preprocessing.cpp:
+     Data preprocessing, feature selec:tion, train-test splitting and standardization.
 
 - linear_regression.h / linear_regression.cpp:
-    Linear Regression model implementation using Gradient Descent.
+     Linear Regression model implementation using Gradient Descent.
 
 `Structure:`
 
