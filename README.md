@@ -16,10 +16,10 @@ PROJECT STRUCTURE:
 ------------------------------------------------
 
 ```
-bin /                      main.exe
-dataset/                   household_power_consumption.txt
-include/                   data_loader.h/preprocessing.h/linear_regression.h(Header files)
-src/                       data_loader.cpp/preprocessing.cpp/linear_regression.cpp/main.cpp(Source files)
+bin /                    main.exe
+dataset/                 household_power_consumption.txt
+include/                 data_loader.h/preprocessing.h/linear_regression.h(Header files)
+src/                     data_loader.cpp/preprocessing.cpp/linear_regression.cpp/main.cpp(Source files)
 ```
  
 FILES:
@@ -69,12 +69,12 @@ DATASET FEATURES:
 
 - INPUT FEATURES (X):
 
-1. Global Reactive Power
-2. Voltage
-3. Global Intensity
-4. Sub Metering 1
-5. Sub Metering 2
-6. Sub Metering 3
+  1. Global Reactive Power
+  2. Voltage
+  3. Global Intensity
+  4. Sub Metering 1
+  5. Sub Metering 2
+  6. Sub Metering 3
 
 - TARGET VARIABLE (Y):
 
