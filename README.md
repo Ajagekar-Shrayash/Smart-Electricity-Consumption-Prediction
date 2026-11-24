@@ -25,14 +25,11 @@ src/                       data_loader.cpp/preprocessing.cpp/linear_regression.c
 FILES:
 ------------------------------------------------
 
-- data_loader.h / data_loader.cpp:
-     Dataset structure and electricity dataset loading.    
+"data_loader.h/data_loader.cpp:" - Dataset structure and electricity dataset loading.    
   
-- preprocessing.h / preprocessing.cpp:
-     Data preprocessing, feature selec:tion, train-test splitting and standardization.
+"preprocessing.h/preprocessing.cpp:" - Data preprocessing, feature selection, train-test splitting and standardization.
 
-- linear_regression.h / linear_regression.cpp:
-     Linear Regression model implementation using Gradient Descent.
+"linear_regression.h/linear_regression.cpp:" - Linear Regression model implementation using Gradient Descent.
 
 `Structure:`
 
