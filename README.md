@@ -16,8 +16,7 @@ PROJECT STRUCTURE:
 ------------------------------------------------
 
 ```
-b
-in /                       iain.exe
+bin /                      main.exe
 dataset/                   household_power_consumption.txt
 include/                   data_loader.h/preprocessing.h/linear_regression.h(Header files)
 src/                       data_loader.cpp/preprocessing.cpp/linear_regression.cpp/main.cpp(Source files)
@@ -27,7 +26,7 @@ FILES:
 ------------------------------------------------
 
 - data_loader.h / data_loader.cpp:
- - data_loader.h / data_loader.cpp:
+    Dataset structure and electricity dataset loading.    
   
 - preprocessing.h / preprocessing.cpp
     Data preprocessing, feature selec:tion, train-test splitting and standardization.
@@ -68,7 +67,7 @@ main.cpp:
     - Prediction
     - MAE calculation
 
- DATASET FEATURES:
+DATASET FEATURES:
 ------------------------------------------------
 
 - INPUT FEATURES (X):
@@ -87,30 +86,30 @@ main.cpp:
 Date and Time are not used as model input features.
 
 
- REQUIREMENTS:
+REQUIREMENTS:
 ------------------------------------------------
     
-  - Windows
+   - Windows
    - GCC 
-- Visual Studio Code
+   - Visual Studio Code
 
- COMPILE:
+COMPILE:
 ------------------------------------------------
 
-   `g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression.cpp -o bin/main.exe`
+`g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression.cpp -o bin/main.exe`
       
 
- RUN:
+RUN:
 ------------------------------------------------
 
 `bin\main.exe`
 
 
- NOTES:
+NOTES:
 ------------------------------------------------
 
-  - The dataset uses semicolon-separated values.
- - Records containing missing numerical values ("?") are skipped.
+- The dataset uses semicolon-separated values.
+- Records containing missing numerical values ("?") are skipped.
 - The current implementation processes up to 10,000 valid records.
 - Linear Regression learns weights and bias using Gradient Descent.
 - Feature standardization uses training data statistics.
