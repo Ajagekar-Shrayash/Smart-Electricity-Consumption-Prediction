@@ -1,109 +1,116 @@
 **SMART ELECTRICITY CONSUMPTION PREDICTION**
-
-C++ MACHINE LEARNING PROJECT
-
+------------------------------------------------
+c++   machine learning  project
+------------------------------------------------
+ 
 Team Members:
 
-- AJAGEKAR SHRAYASH MACHINDRA
-- MANSURI HAREEMBANU MOHAMMED HUSSAIN
+- AJAGEKAR SHRAYASH MACHINDRA  - 04
+- MANSURI HAREEMBANU MOHAMMED HUSSAIN - 05
 
-## FILES
+INTRO:
+------------------------------------------------
+    This project uses Linear Regression with Gradient Descent in C++ to predict household electricity consumption (Global Active Power) based on six electrical features from historical data.
 
-data_loader.h / data_loader.cpp
+PROJECT STRUCTURE:
+------------------------------------------------
 
-Dataset structure and electricity dataset loading.
+```
+b
+in /                       iain.exe
+dataset/                   household_power_consumption.txt
+include/                   data_loader.h/preprocessing.h/linear_regression.h(Header files)
+src/                       data_loader.cpp/preprocessing.cpp/linear_regression.cpp/main.cpp(Source files)
+ 
 
-Structure:
+FILES:
+------------------------------------------------
+
+- data_loader.h / data_loader.cpp:
+ - data_loader.h / data_loader.cpp:
+  
+- preprocessing.h / preprocessing.cpp
+    Data preprocessing, feature selec:tion, train-test splitting and standardization.
+
+- linear_regression.h / linear_regression.cpp:
+    Linear Regression model implementation using Gradient Descent.
+
+`Structure:`
 
 - "Dataset"
+- "PreparedData" –  Stores input features (X) and target values (y).
+- "SplitData" –  Stores training and testing datasets.
+- "Standardizer" –  Stores mean and standard deviation
+- "LinearRegression" –  Stores model weights and bias.
 
-Function:
-
-- "loadDataset()" – Loads the dataset, checks missing values and stores valid records.
-
-preprocessing.h / preprocessing.cpp
-
-Data preprocessing, feature selection, train-test splitting and standardization.
-
-Structures:
-
-- "PreparedData" – Stores input features (X) and target values (y).
-- "SplitData" – Stores training and testing datasets.
-- "Standardizer" – Stores mean and standard deviation.
-
-Functions:
-
-- "selectFeatures()" – Selects six input features and one target variable.
-- "trainTestSplit()" – Splits data into training and testing sets.
-- "fitStandardizer()" – Calculates mean and standard deviation from training features.
-- "transformFeatures()" – Standardizes input features.
-
-linear_regression.h / linear_regression.cpp
-
-Linear Regression model implementation using Gradient Descent.
-
-Structure:
-
-- "LinearRegression" – Stores model weights and bias.
-
-Functions:
-
-- "trainModel()" – Trains the model by updating weights and bias.
-- "predict()" – Estimates Global Active Power using trained model parameters.
-
-main.cpp
-
-Main function and complete execution workflow.
-
-- Dataset loading
-- Feature selection
-- Train-test splitting
-- Feature standardization
-- Model training
-- Model testing
-- Prediction
-- MAE calculation
-
-## DATASET FEATURES
+`Function:`
+ 
+- "loadDataset()" –  Loads the dataset, checks missing values and stores valid records.
+- "selectFeatures()" –  Selects six input features and one target variable.
+- "trainTestSplit()" –  Splits data into training and testing sets.
+- "fitStandardizer()" –  Calculates mean and standard deviation from training features.
+- "transformFeatures()" –  Standardizes input features.
+- "trainModel()" –  Trains the model by updating weights and bias.
+- "predict()" –  Estimates Global Active Power using trained model parameters.
 
 
-INPUT FEATURES (X):
+main.cpp:
+------------------------------------------------
 
-1. Global Reactive Power
-2. Voltage
-3. Global Intensity
-4. Sub Metering 1
-5. Sub Metering 2
-6. Sub Metering 3
+    Main function and complete execution workflow.
 
-TARGET VARIABLE (Y):
+    - Dataset loading
+    - Feature selection
+    - train_test_splitting
+    - Feature standardization
+    - Model training
+    - Model testing
+    - Prediction
+    - MAE calculation
 
-- Global Active Power (kW)
+ DATASET FEATURES:
+------------------------------------------------
+
+- INPUT FEATURES (X):
+
+  1. Global Reactive Power
+  2. Voltage
+  3. Global Intensity
+  4. Sub Metering 1
+  5. Sub Metering 2
+  6. Sub Metering 3
+
+- TARGET VARIABLE (Y):
+
+        Global Active Power (kW)
 
 Date and Time are not used as model input features.
 
 
-## REQUIREMENTS
-
-- Windows
-- GCC 
+ REQUIREMENTS:
+------------------------------------------------
+    
+  - Windows
+   - GCC 
 - Visual Studio Code
 
+ COMPILE:
+------------------------------------------------
 
-## COMPILE
+   `g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression.cpp -o bin/main.exe`
+      
 
-g++ src/main.cpp src/data_loader.cpp src/preprocessing.cpp src/linear_regression.cpp -o bin/main.exe
+ RUN:
+------------------------------------------------
+
+`bin\main.exe`
 
 
-## RUN
+ NOTES:
+------------------------------------------------
 
-bin\main.exe
-
-
-## NOTES
-
-- The dataset uses semicolon-separated values.
-- Records containing missing numerical values ("?") are skipped.
+  - The dataset uses semicolon-separated values.
+ - Records containing missing numerical values ("?") are skipped.
 - The current implementation processes up to 10,000 valid records.
 - Linear Regression learns weights and bias using Gradient Descent.
 - Feature standardization uses training data statistics.
