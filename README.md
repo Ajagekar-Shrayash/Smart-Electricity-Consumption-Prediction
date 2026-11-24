@@ -69,16 +69,16 @@ DATASET FEATURES:
 
 - INPUT FEATURES (X):
 
-  1. Global Reactive Power
-  2. Voltage
-  3. Global Intensity
-  4. Sub Metering 1
-  5. Sub Metering 2
-  6. Sub Metering 3
+ 1. Global Reactive Power
+ 2. Voltage
+ 3. Global Intensity
+ 4. Sub Metering 1
+ 5. Sub Metering 2
+ 6. Sub Metering 3
 
 - TARGET VARIABLE (Y):
 
-      Global Active Power (kW)
+     Global Active Power (kW)
 
 Date and Time are not used as model input features.
 
