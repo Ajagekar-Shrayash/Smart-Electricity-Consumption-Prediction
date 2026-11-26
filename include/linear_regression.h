@@ -17,7 +17,7 @@ double predict(
 
 void trainModel(
     LinearRegression& model,
-    const vector<vector<double>> & X,
+    const vector<vector<double>>& X,
     const vector<double>& y,
     int epochs,
     double learningRate
