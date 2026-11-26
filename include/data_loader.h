@@ -16,6 +16,9 @@ struct Dataset
     vector<double> subMetering3;
 };
 
+
+// Loads the electricity consumption dataset from the specified file.
+
 Dataset loadDataset(const string& filename, int limit);
 
 #endif
